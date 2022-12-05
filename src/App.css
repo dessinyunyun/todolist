@@ -1,0 +1,87 @@
+.navbar {
+  background-color: #16abf8 !important;
+}
+
+.card {
+  border: none !important;
+}
+
+.text-form {
+  border: none;
+  font-size: calc(1.37rem + 1.3vw) !important;
+  font-weight: 700 !important;
+  outline: none;
+  border-bottom: 1px solid black;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.2;
+}
+
+.shadow-local {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.text-form:active,
+.text-form:focus {
+  outline: none !important;
+  font-size: calc(1.37rem + 1.3vw) !important;
+  line-height: 1.2 !important;
+  font-weight: 700 !important;
+
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.label-indicator {
+  margin: 0px 10px 0px 20px;
+}
+
+.label-indicator-in-select {
+  position: absolute;
+}
+
+.right {
+  height: 100% !important;
+  justify-content: end;
+}
+.priority-menu {
+  width: 250px;
+}
+
+li .form-control,
+li .form-control-lg {
+  border: none !important;
+}
+
+.priority-select {
+  position: absolute;
+  z-index: 99;
+  width: 250px;
+}
+
+.priority-select li {
+  background-color: white;
+  list-style: none;
+}
+
+.priority-menu .form-control:hover {
+  cursor: pointer;
+}
+
+li .form-control:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.priority-select ul {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .right {
+    justify-content: center;
+    margin-top: 30px;
+  }
+}
